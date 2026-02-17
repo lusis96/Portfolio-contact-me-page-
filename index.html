@@ -32,8 +32,61 @@
 
 <h2 id="contact">Contact Me</h2>
 
-<p>Email: luisgru2023@email.com</p>
-<p>GitHub: <a href="https://github.com/lusis96" target="_blank">My Profile</a></p>
+<form
+  action="https://formspree.io/f/xkovjbqb"
+  method="POST"
+  class="contact-form"
+>
+  <div class="field">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Your name"
+      required
+    />
+  </div>
 
+  <div class="field">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="you@email.com"
+      required
+    />
+  </div>
+
+  <div class="field">
+    <label for="subject">Subject</label>
+    <input
+      type="text"
+      id="subject"
+      name="subject"
+      placeholder="What is this about?"
+      required
+    />
+  </div>
+
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      placeholder="Write your message here..."
+      required
+    ></textarea>
+  </div>
+
+  <button type="submit">Send Message</button>
+</form>
+<!--
+<p>Email: luisgru2023@email.com</p>
+<p>Phone: 774-505-2354</p>
+<p>GitHub: <a href="https://github.com/lusis96" target="_blank">My Profile</a></p>
+-->
 </body>
 </html>

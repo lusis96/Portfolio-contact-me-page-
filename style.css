@@ -51,3 +51,48 @@ nav a {
 nav a:hover {
   color: gray;
 }
+
+/* Contact Form Styling */
+.contact-form {
+  width: 90%;
+  max-width: 450px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.field input,
+.field textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
